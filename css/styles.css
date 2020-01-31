@@ -45,19 +45,6 @@
   font-size: 1.5em;
 }
 
-/* delete this one */
-.page footer{
-  background-color: #000000 !important;
-  justify-content: center;
-  text-align: center;
-  color: white !important;
-  font-family:'Lucida Console', Monaco, monospace !important;
-
-  display: flex;
-  position: relative;
-}
-
-/* keep this one */
 .footer{
   background-color: #000000 !important;
   justify-content: center;
@@ -68,6 +55,10 @@
   display: flex;
   position: relative;
   padding-bottom: -500px;
+}
+
+.footer a{
+  color: white !important;
 }
 
 
